@@ -4,7 +4,7 @@ import pydeck as pdk
 import pandas as pd
 
 # Mapbox API-Key setzen
-pdk.settings.mapbox_api_key = "pk.eyJ1IjoiYXByeWxsaW9uIiwiYSI6ImNtNGp6b2p4bDBndzYyaXIzc2dldnU3MXMifQ.QKu763IA6iTXvgkdFSq3Dw"  # Ersetze "DEIN_MAPBOX_TOKEN" durch deinen tatsächlichen Token
+pdk.settings.mapbox_api_key = "pk.eyJ1IjoiYXByeWxsaW9uIiwiYSI6ImNtNGp6b2p4bDBndzYyaXIzc2dldnU3MXMifQ.QKu763IA6iTXvgkdFSq3Dw"  # MapBox_Token
 
 # Funktion: Linienverbindungen zwischen Punkten erstellen
 def create_line_data(data):

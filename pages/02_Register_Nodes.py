@@ -1,5 +1,6 @@
 import streamlit as st
 from time import sleep
+import pandas as pd
 import random
 
 # Seite konfigurieren

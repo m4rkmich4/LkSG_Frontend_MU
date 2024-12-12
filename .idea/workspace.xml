@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ea9291-3588-4d16-acab-a9db3b2012e7" name="Changes" comment="MOCK-Up Initial Commit/Push" />
+    <list default="true" id="75ea9291-3588-4d16-acab-a9db3b2012e7" name="Changes" comment="MOCK-Up Initial Commit/Push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lieferantenreport.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Lieferantenreport.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/02_Register_Nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/02_Register_Nodes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "m4rkmich4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/m4rkmich4/LkSG_Frontend_MU.git",
+    "accountId": "f111faa6-cc85-4688-929e-ca28b732e48c"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pages/4_report_generator.py" root0="SKIP_INSPECTION" />
   </component>
@@ -71,7 +87,7 @@
       <workItem from="1733474562407" duration="1586000" />
       <workItem from="1733646144299" duration="1668000" />
       <workItem from="1733902503865" duration="24082000" />
-      <workItem from="1733991126674" duration="1047000" />
+      <workItem from="1733991126674" duration="4737000" />
     </task>
     <task id="LOCAL-00001" summary="MOCK-Up Initial Commit/Push">
       <option name="closed" value="true" />
@@ -89,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733991895399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MOCK-Up Initial Commit/Push">
+      <option name="closed" value="true" />
+      <created>1733992188889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733992188889</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
