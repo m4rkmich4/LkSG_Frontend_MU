@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ea9291-3588-4d16-acab-a9db3b2012e7" name="Changes" comment="Req.txt added">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="75ea9291-3588-4d16-acab-a9db3b2012e7" name="Changes" comment="Readme.md added">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1733474562407" duration="1586000" />
       <workItem from="1733646144299" duration="1668000" />
       <workItem from="1733902503865" duration="24082000" />
-      <workItem from="1733991126674" duration="5853000" />
+      <workItem from="1733991126674" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="MOCK-Up Initial Commit/Push">
       <option name="closed" value="true" />
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733997612955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Readme.md added">
+      <option name="closed" value="true" />
+      <created>1733998536627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733998536627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MOCK-Up Initial Commit/Push" />
     <MESSAGE value="Req.txt added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Req.txt added" />
+    <MESSAGE value="Readme.md added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md added" />
   </component>
 </project>

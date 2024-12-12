@@ -58,7 +58,7 @@ Dieses Projekt ist ein **Mock-Up** zur Verwaltung von Lieferketten-Compliance-An
 
 5. Starte die Anwendung:
    ```bash
-   streamlit run app.py
+   streamlit run Home.py
    ```
 
 ---
