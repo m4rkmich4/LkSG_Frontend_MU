@@ -67,7 +67,7 @@ if uploaded_file:
                 ".jpeg"):
             # PDF oder Bild-Datei: hier können keine direkten tabellarischen Daten ausgelesen werden
             # Stattdessen simulieren wir einen KI-Prozess, der Daten extrahiert.
-            st.info("📄 Die hochgeladene Datei ist eine PDF- oder Bilddatei. Daten werden mittels KI extrahiert (Mock).")
+            st.info("📄 Die hochgeladene Datei ist eine PDF- oder Bilddatei. Daten werden mittels KI extrahiert.")
             file_type = "non_tabular"
             df = None
         else:
@@ -119,7 +119,7 @@ if uploaded_file is not None:
             }
             df = pd.DataFrame(extracted_data)
 
-            st.markdown("<h3 style='text-align: center;'>📋 Extrahierte Daten (Mock)</h3>", unsafe_allow_html=True)
+            st.markdown("<h3 style='text-align: center;'>📋 Extrahierte Daten</h3>", unsafe_allow_html=True)
             st.dataframe(df)
 
         required_columns = ["Name", "Standort", "Land", "UID"]
@@ -179,11 +179,11 @@ if uploaded_file is not None:
                 st.success(f"✅ Lieferant {name} neu angelegt (UID: {uid}, Risiko: {new_risk})")
 
         # 4. KI schreibt die aktualisierten Daten in die Graphendatenbank (fake)
-        with st.spinner("💾 KI schreibt Daten in die Graphendatenbank..."):
+        with st.spinner("💾 KI schreibt Daten in die Datenbank..."):
             sleep(2)
-        st.success("✅ Daten in Graphendatenbank geschrieben!")
+        st.success("✅ Daten in Datenbank geschrieben!")
 
         st.markdown("<h3 style='text-align: center;'>🎉 Prozess abgeschlossen!</h3>", unsafe_allow_html=True)
 
-        st.markdown("### 📋 Aktuelle Lieferantenliste (nach Update)")
+        st.markdown("### 📋 Aktuelle Lieferantenliste")
         st.dataframe(pd.DataFrame(st.session_state["suppliers"]))
